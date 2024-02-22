@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>add/remove staff</title>
+<link rel="stylesheet" href="css/style1.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <center><h2>ADD/UPDATE/REMOVE STAFF!</h2></center>
+<div class="container">
+    
+            <form action="update_staff.html" method="post">
+                <label><b>Staff ID</b> </label><button id="btn_go" name="fetch_btn" type="submit">GO</button>
+                <input type="text" placeholder="enter the staff id" name="staff_id" value="">
+                <label><b>Fisrt Name</b></label>
+                <input type="text" placeholder="enter the First name" name="FirstName" value="">
+                <label><b>Last Name</b></label>
+                <input type="text" placeholder="enter the last name" name="LastName" value="">
+                <label><b>Designation</b></label>
+                <input type="text" placeholder="enter the Designation" name="Designation" value="">
+                <label><b>Phone Number</b></label>
+                <input type="number" placeholder="enter the phone no" name="Phone_no" value="">
+                <label><b>Date Joined</b></label>
+                <input type="date" placeholder="enter the date joined" name="date_joined" value="">
+                <label><b>Salary</b></label>
+                <input type="number" placeholder="enter the salary" name="salary" value="">
+                
+                <center>
+                    <button id="btn_add" name="add_btn" type="submit">Add</button>
+                    <button id="btn_update" name="update_btn" type="submit">Update</button>
+                    <button id="btn_remove" name="remove_btn" type="submit">Remove</button>
+                    <a href="management.html" class="btn btn-danger">GO BACK</a>
+                </center>
+            </form>
+                
+
+        </div>
+    </div>
+
+</body>
+</html>

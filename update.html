@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>insertion/deletion of stock</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="main-wrapper">
+        <center><h2>INSERT/UPDATE/DELETE STOCK!</h2></center>
+<div class="inner_container">
+    
+            <form action="update.php" method="post">
+                <label><b>Stock ID</b> </label><button id="btn_go" name="fetch_btn" type="submit">GO</button>
+                <input type="text" placeholder="enter the stock id" name="stock_id" value="">
+                <label><b>Drug Name</b></label>
+                <input type="text" placeholder="enter the drug name" name="drug_name" value="">
+                <label><b>Date Supplied</b></label>
+                <input type="date" placeholder="enter date supplied" name="date_supplied" value="">
+                <label><b>Description</b></label>
+                <input type="text" placeholder="enter the Description" name="description" value="">
+                <label><b>Supplier</b></label>
+                <input type="text" placeholder="enter the supplier" name="supplier" value="">
+                <label><b>Quantity</b></label>
+                <input type="number" placeholder="enter the quantity" name="quantity" value="">
+                <label><b>Cost</b></label>
+                <input type="number" placeholder="enter the cost" name="cost" value="">
+                <label><b>Availability</b></label>
+                <input type="text" placeholder="enter availability" name="availability" value="">
+                
+                    <button id="btn_insert" name="insert_btn" type="submit">Insert</button>
+                    <button id="btn_update" name="update_btn" type="submit">Update</button>
+                    <button id="btn_delete" name="delete_btn" type="submit">Delete</button>
+<p>
+   <a href="stock.html" class="btn btn-danger">GO BACK</a>
+</p>
+                    
+                
+            </form>
+            
+
+        </div>
+    </div>
+
+</body>
+</html>
